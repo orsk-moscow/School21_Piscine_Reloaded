@@ -118,15 +118,15 @@ __Exercise 22 : ft_abs.h__
     
 __Exercise 23 : ft_point.h__
 
-    File ft_point.h that compile the following main :
-    
-    _#include "ft_point.h"
+File ft_point.h that compile the following main :
+
+    #include "ft_point.h"
     void set_point(t_point *point)
     {
         point->x = 42;
         point->y = 21;
     }
-    
+
     int main(void)
     {
         t_point point;
