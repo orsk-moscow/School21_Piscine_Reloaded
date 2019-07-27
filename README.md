@@ -120,7 +120,7 @@ __Exercise 23 : ft_point.h__
 
     File ft_point.h that compile the following main :
     
-    #include "ft_point.h"
+    _#include "ft_point.h"
     void set_point(t_point *point)
     {
         point->x = 42;
